@@ -1,0 +1,21 @@
+{
+  "name": "testGraphQL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sincerity10/testGraphQL.git",
+  "author": "sincerity10 <sincerity410@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.18.2",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "babel-node": "^0.0.1-security"
+  },
+"scripts": {
+    "start": "nodemon --exec babel-node generated/index.ts"
+  }
+}
